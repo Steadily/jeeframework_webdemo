@@ -27,7 +27,7 @@
     <bean id="jacksonObjectMapper" class="com.fasterxml.jackson.databind.ObjectMapper" />
 
     <!-- 用于持有ApplicationContext,可以使用SpringContextHolder.getBean('xxxx')的静态方法得到spring bean对象 -->
-    <bean class="com.jeeframework.webdemo.util.spring.SpringContextHolder" lazy-init="false" />
+    <bean class="com.jeeframework.core.context.support.SpringContextHolder" lazy-init="false" />
 
     <!--     注解说明   -->
     <context:annotation-config />

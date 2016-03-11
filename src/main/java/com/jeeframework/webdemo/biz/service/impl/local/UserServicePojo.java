@@ -2,7 +2,7 @@ package com.jeeframework.webdemo.biz.service.impl.local;
 
 import com.jeeframework.logicframework.biz.exception.BizException;
 import com.jeeframework.logicframework.biz.service.BaseService;
-import com.jeeframework.logicframework.common.logging.LoggerUtil;
+import com.jeeframework.logicframework.util.logging.LoggerUtil;
 import com.jeeframework.logicframework.integration.dao.DAOException;
 import com.jeeframework.webdemo.biz.service.UserService;
 import com.jeeframework.webdemo.integration.UserDataService;

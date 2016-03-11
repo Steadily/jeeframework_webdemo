@@ -2,7 +2,7 @@ package com.jeeframework.webdemo.web.controller;
 
 import com.jeeframework.core.exception.BaseException;
 import com.jeeframework.logicframework.biz.exception.BizException;
-import com.jeeframework.logicframework.common.logging.LoggerUtil;
+import com.jeeframework.logicframework.util.logging.LoggerUtil;
 import com.jeeframework.util.cookie.CookieHelper;
 import com.jeeframework.util.encrypt.BASE64Util;
 import com.jeeframework.util.encrypt.MD5Util;
